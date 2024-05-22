@@ -1,4 +1,5 @@
 # SVM-GUI-SMO
+This project provides a comprehensive toolkit for solving Support Vector Machine (SVM) problems using both the Sequential Minimal Optimization (SMO) algorithm and the quadratic programming solver from the cvxopt library. It includes a command-line interface for executing SVM solutions and a graphical user interface (GUI) built with Tkinter for interactive problem-solving and visualization. The toolkit is designed to be flexible, allowing users to customize feature dimensions and data size, and to choose between random or manual data generation methods. The primary components of the project are described below.
 
 + `cvxopt_solver.py`: Invokes the quadratic programming solver from cvxopt for efficient problem-solving, primarily used as a benchmark for solving efficiency.
 
